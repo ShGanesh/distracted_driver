@@ -1,7 +1,5 @@
 #!/bin/bash
-
-
-pwd
+pwd # Just to be sure
 
 mkdir pics
 mv ./s00{1..2}/* ./pics
