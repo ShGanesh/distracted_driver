@@ -44,24 +44,15 @@ GOTO directory pics
 `line 8`
 
 #### Get required pics  
-We shall access all images by creating a list of their names  
+We shall access all images by creating an array of their names  
 `line 10`  
+> Use the ls command and encapsulate the whole output in ( ). This shall create an array. It can be printed using `echo ${var[@]}`, where 'var' is variable name and '@' means all arguments.  
 
 #### Shift through all pics wrt eye state and move them into respective directories  
-```
+`lines 12 to 21`  
+>  for image in array:  
+>> if 16th character of string(image) == "0": move image to directory closed/  
+>> else, if 16th character of string(image) == "1": move image to directory open/  
 
-d=($(ls))
-
-for img in ${d[@]}
-do
-	if [[ ${img:16:1} == "0" ]]
-	then
-		mv $img ../close
-	elif [[ ${img:16:1} == "1" ]]
-	then
-		mv $img ../open
-	fi
-done
-```
-> `cd`:         change directory to pics  
->  `d=($(ls))`: 
+Now All images with open eyes are in directory open/ and the closed ones are in closed/ .  
+Yay!
