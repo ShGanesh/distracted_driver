@@ -1,7 +1,8 @@
 # HOW TO HANDLE AND PREPARE THE DATABASE THE EASIER WAY (explanation)  
 For such a large amount of of files, it is difficult to physically identify and separate them. Luckily, the source has been magnanimous enough to label the pictures for us.  
 This file is for us noobs who are new to such things. I hope to make your lives easier.  
-Keep [handling_database.sh](./handling_database.sh) on hand.  
+The following explanation is for [handling_database.sh](./handling_database.sh). Keep it on hand.  
+For my Python homies the code is in [handling_database.py](./handling_database.py). No extra explanation there, so read this first.  
 
 The images were taken from [MRL Eye Dataset](http://mrl.cs.vsb.cz/eyedataset). Kudos to them.   
 
