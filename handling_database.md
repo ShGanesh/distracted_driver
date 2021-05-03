@@ -4,7 +4,7 @@ This file is for us noobs who are new to such things. I hope to make your lives 
 
 The images were taken from [MRL Eye Dataset](http://mrl.cs.vsb.cz/eyedataset).   
 
-**DISCLAIMER: For ease I only used s0001-s0014, But I will explain the process for all s0001 to s0036.**
+**DISCLAIMER: For ease I only used s0001-s0014, But I will explain the process for all s0001 to s0036.**  
 *directory == folder*
 
 
@@ -42,4 +42,5 @@ mkdir open closed
 ```   
 > `mkdir`: Makes directories named after whatever is written after that. Here, 2 strings were written so 2 directories were made.  
 
-Now we shall write a bash script to bifurcate (Yes I like this word very much.) the pics according to eye state.
+```
+```
