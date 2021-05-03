@@ -4,6 +4,7 @@ pwd # Just to be sure
 mkdir pics
 mv ./s00{1..2}/* ./pics
 rmdir s00{1..2}
+mkdir open close
 cd pics
 
 d=($(ls))
