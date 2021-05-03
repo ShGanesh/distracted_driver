@@ -1,5 +1,11 @@
 #!/bin/bash
 
+
+pwd
+
+mkdir pics
+mv ./s00{1..2}/* ./pics
+rmdir s00{1..2}
 cd pics
 
 d=($(ls))
