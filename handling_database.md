@@ -7,7 +7,7 @@ For my Python homies the code is in [handling_database.py](./handling_database.p
 The images were taken from [MRL Eye Dataset](http://mrl.cs.vsb.cz/eyedataset). Kudos to them.   
 
 **DISCLAIMER: For ease I only used s0001-s0014, But I will explain the process for all s0001 to s0036.**  
-*directory == folder*  
+*directory == folder*   
 The bash file is to be created in the directory where all files have been extracted.
 
 ## Step 1:  
